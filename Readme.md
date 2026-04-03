@@ -200,6 +200,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 - Season of KDE
 - 24 Pull Requests
 - University Winter/Summer of Code programs
+- Open Alliance for PostgreSQL Education (OAPE) - www.oapg-edu.org
 
 ### 🌍 Region-Specific Programs
 
