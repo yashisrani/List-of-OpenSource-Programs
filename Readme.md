@@ -46,6 +46,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**Open Mainframe Project Mentorship**](https://www.openmainframeproject.org/projects/mentorship-program) | Linux Foundation | Aligns with LFX terms | Stipend available | Open to all |
 | [**Linux Kernel Mentorship Program**](https://wiki.linuxfoundation.org/lkmp) | Linux Foundation | Aligns with LFX / kernel community cycles | Stipend available | Open to all |
 | [**Igalia Coding Experience**](https://www.igalia.com/coding-experience/) | Igalia | Rolling / periodic openings | Paid | Open to all |
+| [**Nexus Spring of Code (NSoC)**](https://www.nsoc.in/) | Nexus | 45-day open source program • Dates vary by season/year | **No stipend (community-driven program)** | Open to contributors interested in real-world open source work |
 | [**FOSSASIA Internship**](https://fossasia.org/internship) | FOSSASIA | Rolling / project-based | Varies | Open to all |
 | [**FOSSEE Summer Fellowship**](https://fossee.in/) | IIT Bombay | Annual summer fellowship | Paid / stipend-based | Students (primarily India) |
 
