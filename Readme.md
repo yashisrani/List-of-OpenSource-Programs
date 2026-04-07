@@ -39,7 +39,6 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**MLH Fellowship**](https://fellowship.mlh.io/) | Major League Hacking | 12-week remote program • Multiple cohorts/tracks | Educational stipend provided | 18+ years, students/recent grads |
 | [**Season of KDE**](https://season.kde.org/) | KDE Community | **2026:** Applications due Jan 14 • Work: Jan 23 – Mar 20 | Non-paid (certificate + swag) | Students |
 | [**Summer of Bitcoin**](https://www.summerofbitcoin.org/) | Summer of Bitcoin | Annual spring/summer program • Check official site for 2026 dates | **$3,000 in Bitcoin** | University students |
-| [**Julia Summer of Code**](https://julialang.org/jsoc/) | Julia Language | Typically aligns with GSoC timeline | Varies | Open to all |
 | [**Open Source Promotion Plan (OSPP)**](https://summer-ospp.ac.cn/) | Chinese Academy of Sciences | Annual summer program • Applications usually open in spring | **Up to ¥12,000 CNY** | Primarily students |
 | [**Free Software Foundation Internship**](https://www.fsf.org/volunteer/internships) | Free Software Foundation (FSF) | Rolling applications | Unpaid (educational) | Students |
 | [**Hyperledger Mentorship**](https://wiki.hyperledger.org/display/INTERN/) | Linux Foundation | Multiple terms yearly (via LFX ecosystem) | **$3,000 - $6,600** | Open to all |
