@@ -42,7 +42,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**Open Source Promotion Plan (OSPP)**](https://summer-ospp.ac.cn/) | Chinese Academy of Sciences | Annual summer program • Applications usually open in spring | **Up to ¥12,000 CNY** | Primarily students |
 | [**Free Software Foundation Internship**](https://www.fsf.org/volunteer/internships) | Free Software Foundation (FSF) | Rolling applications | Unpaid (educational) | Students |
 | [**Hyperledger Mentorship**](https://wiki.hyperledger.org/display/INTERN/) | Linux Foundation | Multiple terms yearly (via LFX ecosystem) | **$3,000 - $6,600** | Open to all |
-| [**Open Mainframe Project Mentorship**](https://www.openmainframeproject.org/projects/mentorship-program) | Linux Foundation | Aligns with LFX terms | Stipend available | Open to all |
+| [**Open Mainframe Project Mentorship**](https://openmainframeproject.org/community/mentorship-program/) | Linux Foundation | Aligns with LFX terms | Stipend available | Open to all |
 | [**Linux Kernel Mentorship Program**](https://wiki.linuxfoundation.org/lkmp) | Linux Foundation | Aligns with LFX / kernel community cycles | Stipend available | Open to all |
 | [**Igalia Coding Experience**](https://www.igalia.com/coding-experience/) | Igalia | Rolling / periodic openings | Paid | Open to all |
 | [**Nexus Spring of Code (NSoC)**](https://www.nsoc.in/) | Nexus | 45-day open source program • Dates vary by season/year | **No stipend (community-driven program)** | Open to contributors interested in real-world open source work |
