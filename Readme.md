@@ -44,6 +44,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**Free Software Foundation Internship**](https://www.fsf.org/volunteer/internships) | Free Software Foundation (FSF) | Rolling applications | Unpaid (educational) | Students |
 | [**Hyperledger Mentorship**](https://wiki.hyperledger.org/display/INTERN/) | Linux Foundation | Multiple terms yearly (via LFX ecosystem) | **$3,000 - $6,600** | Open to all |
 | [**sktime Mentoring Program**](https://www.sktime.net/en/latest/get_involved/mentoring.html) | sktime Community | Rolling / seasonal mentoring opportunities • Check official page for current rounds | Varies / May be paid depending on program | Open to contributors interested in time series ML and open source |
+| [**Djangonaut Space**](https://djangonaut.space/) | Django Community | Free 8-week mentoring program • Multiple sessions yearly | Free / mentorship-based | Open to Django contributors |
 | [**Open Mainframe Project Mentorship**](https://openmainframeproject.org/community/mentorship-program/) | Linux Foundation | Aligns with LFX terms | Stipend available | Open to all |
 | [**Linux Kernel Mentorship Program**](https://wiki.linuxfoundation.org/lkmp) | Linux Foundation | Aligns with LFX / kernel community cycles | Stipend available | Open to all |
 | [**Igalia Coding Experience**](https://www.igalia.com/coding-experience/) | Igalia | Rolling / periodic openings | Paid | Open to all |
