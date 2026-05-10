@@ -61,6 +61,10 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | --------------------------------------------------- | ------------ | ------------------------------------------------------------------ | --------------------------------- |
 | [**Hacktoberfest**](https://hacktoberfest.com/)     | DigitalOcean | **Annual:** October 1-31 • Registration usually opens in September | Digital badges, swag, recognition |
 | [**24 Pull Requests**](https://24pullrequests.com/) | Community    | December 1-24 annually                                             | Recognition, badges               |
+| [**GirlScript Summer of Code (GSSoC)**](https://gssoc.girlscript.tech/) | GirlScript Foundation | Annual summer open source program • Dates announced yearly | Certificates, swag, networking opportunities |
+| [**Social Summer of Code (SSoC)**](https://ssoc.girlscript.tech/) | Social Foundation | Annual community-driven open source program | Certificates, mentorship, recognition |
+
+
 
 > **Removed from active list:** items that were outdated, no longer clearly active, or not strongly aligned with open-source contribution programs for 2026.
 
