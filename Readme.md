@@ -256,6 +256,19 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 - *Community:* Help answer questions, organize events
 
 ---
+### Non-Code Contribution 
+
+- *Documentation:* Fix typos, improve README files, write tutorials
+- *Translation:* Help translate software to different languages
+  - [Mozilla Firefox Translations](https://firefox-source-docs.mozilla.org/toolkit/components/translations/resources/02_contributing.html)
+  - [Ethereum Translation Program](https://ethereum.org/contributing/translation-program/)
+- *Design:* Create logos, UI mockups, graphics
+- *Testing:* Report bugs, test new features
+- *Community:* Help answer questions, organize events
+
+---
+
+
 
 ### 📚 Learning Path for Open Source
 
