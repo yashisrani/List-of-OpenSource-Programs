@@ -6,7 +6,6 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%201%2C%202026-blue.svg)]()
 
 </div>
 
