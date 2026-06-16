@@ -34,6 +34,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**Google Summer of Code (GSoC)**](https://summerofcode.withgoogle.com/) | Google | **2026:** Org Apps: Jan 19 – Feb 3 • Contributors: Mar 16 – Mar 31 • Coding: May 25 – Nov 2 | **$1,500 – $6,600 (dollars)** (12–22 week projects) | 18+ years, open to all |
 | [**Outreachy**](https://www.outreachy.org/) | Software Freedom Conservancy | Two cohorts annually (Jun–Aug / Dec–Mar) • Check official site for 2026 round dates | **$7,000** | Underrepresented groups in tech |
 | [**LFX Mentorship**](https://mentorship.lfx.linuxfoundation.org/) | Linux Foundation | Multiple terms each year • Applications typically open before each term | **$3,000 – $6,600 (dollars)** | Open to all |
+| [**Igalia Coding Experience**](https://www.igalia.com/coding-experience/) | Igalia | Rolling / periodic openings | $7,000  | Open to all |
 | [**European Summer of Code (ESoC)**](https://www.esoc.dev/) | European Summer of Code | **2026:** Batch 1 Open: Feb 18 • Batch 1 Close: Mar 18 • Batch 2 Open: Mar 19 • Batch 2 Close: Apr 16 • Starts: Apr 15 / May 15 | **Stipends available / Paid internship possible** | Open worldwide, especially contributors new to open source |
 | [**Open Source Research Experience (OSRE)**](https://ucsc-ospo.github.io/osre/) | Open Source Program Office (OSPO), UC Santa Cruz | Summer research program • Also participates through GSoC and other outreach/sponsorship cycles | Varies / Sponsored opportunities available | Undergraduate and graduate students interested in open source research |
 | [**Code for GovTech (C4GT) – Dedicated Mentoring Program (DMP)**](https://app.codeforgovtech.in/) | Code for GovTech | Annual 3-month mentoring program (typically summer cycle; dates vary by year) | **₹1,00,000** stipend | Students, working professionals, and tech enthusiasts |
@@ -47,7 +48,6 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**Djangonaut Space**](https://djangonaut.space/) | Django Community | Free 8-week mentoring program • Multiple sessions yearly | Free / mentorship-based | Open to Django contributors |
 | [**Open Mainframe Project Mentorship**](https://openmainframeproject.org/community/mentorship-program/) | Linux Foundation | Aligns with LFX terms | Stipend available | Open to all |
 | [**Linux Kernel Mentorship Program**](https://wiki.linuxfoundation.org/lkmp) | Linux Foundation | Aligns with LFX / kernel community cycles | Stipend available | Open to all |
-| [**Igalia Coding Experience**](https://www.igalia.com/coding-experience/) | Igalia | Rolling / periodic openings | Paid | Open to all |
 | [**Nexus Spring of Code (NSoC)**](https://www.nsoc.in/) | Nexus | 45-day open source program • Dates vary by season/year | **No stipend (community-driven program)** | Open to contributors interested in real-world open source work |
 | [**FOSSASIA Internship**](https://fossasia.org/internship) | FOSSASIA | Rolling / project-based | Varies | Open to all |
 | [**FOSSEE Summer Fellowship**](https://fossee.in/) | IIT Bombay | Annual summer fellowship | Paid / stipend-based | Students (primarily India) |
