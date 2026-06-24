@@ -46,7 +46,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**sktime Mentoring Program**](https://www.sktime.net/en/latest/get_involved/mentoring.html) | sktime Community | Rolling / seasonal mentoring opportunities • Check official page for current rounds | Varies / May be paid depending on program | Open to contributors interested in time series ML and open source |
 | [**Djangonaut Space**](https://djangonaut.space/) | Django Community | Free 8-week mentoring program • Multiple sessions yearly | Free / mentorship-based | Open to Django contributors |
 | [**Open Mainframe Project Mentorship**](https://openmainframeproject.org/community/mentorship-program/) | Linux Foundation | Aligns with LFX terms | Stipend available | Open to all |
-| [**Linux Kernel Mentorship Program**](https://wiki.linuxfoundation.org/lkmp) | Linux Foundation | Aligns with LFX / kernel community cycles | Stipend available | Open to all |
+| [**Linux Kernel Mentorship Program**](https://wiki.linuxfoundation.org/lkmp) | Linux Foundation | Aligns with LFX / kernel community cycles | Unpaid | Open to all |
 | [**Nexus Spring of Code (NSoC)**](https://www.nsoc.in/) | Nexus | 45-day open source program • Dates vary by season/year | **No stipend (community-driven program)** | Open to contributors interested in real-world open source work |
 | [**FOSSASIA Internship**](https://fossasia.org/internship) | FOSSASIA | Rolling / project-based | Varies | Open to all |
 | [**FOSSEE Summer Fellowship**](https://fossee.in/) | IIT Bombay | Annual summer fellowship | Paid / stipend-based | Students (primarily India) |
