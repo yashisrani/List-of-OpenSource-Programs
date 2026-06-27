@@ -62,6 +62,10 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | --------------------------------------------------- | ------------ | ------------------------------------------------------------------ | --------------------------------- |
 | [**Hacktoberfest**](https://hacktoberfest.com/)     | DigitalOcean | **Annual:** October 1-31 • Registration usually opens in September | Digital badges, swag, recognition |
 | [**24 Pull Requests**](https://24pullrequests.com/) | Community    | December 1-24 annually                                             | Recognition, badges               |
+| [**GirlScript Summer of Code (GSSoC)**](https://gssoc.girlscript.tech/) | GirlScript Foundation | Annual summer open source program • Dates announced yearly | Certificates, swag, networking opportunities |
+| [**Social Summer of Code (SSoC)**](https://ssoc.girlscript.tech/) | Social Foundation | Annual community-driven open source program | Certificates, mentorship, recognition |
+
+
 
 > **Removed from active list:** items that were outdated, no longer clearly active, or not strongly aligned with open-source contribution programs for 2026.
 
@@ -256,6 +260,19 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 - *Community:* Help answer questions, organize events
 
 ---
+### Non-Code Contribution 
+
+- *Documentation:* Fix typos, improve README files, write tutorials
+- *Translation:* Help translate software to different languages
+  - [Mozilla Firefox Translations](https://firefox-source-docs.mozilla.org/toolkit/components/translations/resources/02_contributing.html)
+  - [Ethereum Translation Program](https://ethereum.org/contributing/translation-program/)
+- *Design:* Create logos, UI mockups, graphics
+- *Testing:* Report bugs, test new features
+- *Community:* Help answer questions, organize events
+
+---
+
+
 
 ### 📚 Learning Path for Open Source
 
