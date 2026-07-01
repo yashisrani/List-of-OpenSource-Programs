@@ -37,6 +37,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**Summer of Bitcoin**](https://www.summerofbitcoin.org/) | Summer of Bitcoin | Annual spring/summer program • Check official site for 2026 dates | **$3,000 in Bitcoin** | University students |
 | [**European Summer of Code (ESoC)**](https://www.esoc.dev/) | European Summer of Code | **2026:** Batch 1 Open: Feb 18 • Batch 1 Close: Mar 18 • Batch 2 Open: Mar 19 • Batch 2 Close: Apr 16 • Starts: Apr 15 / May 15 | **Stipends available / Paid internship possible** | Open worldwide, especially contributors new to open source |
 | [**Open Source Research Experience (OSRE)**](https://ucsc-ospo.github.io/osre/) | Open Source Program Office (OSPO), UC Santa Cruz | Summer research program • Also participates through GSoC and other outreach/sponsorship cycles | Varies / Sponsored opportunities available | Undergraduate and graduate students interested in open source research |
+| [**Open Mainframe Project Mentorship Program**] | Open Mainframe Project (Linux Foundation) | Spring, Summer & Fall mentorship cycles (via LFX Mentorship) | **$1,000–$6,600** | University students (18+) interested in Linux, mainframe, COBOL, Zowe, and open source development |  
 | [**Code for GovTech (C4GT) – Dedicated Mentoring Program (DMP)**](https://app.codeforgovtech.in/) | Code for GovTech | Annual 3-month mentoring program (typically summer cycle; dates vary by year) | **₹1,00,000** stipend | Students, working professionals, and tech enthusiasts |
 | [**MLH Fellowship**](https://fellowship.mlh.io/) | Major League Hacking | 12-week remote program • Multiple cohorts/tracks | Educational stipend provided | 18+ years, students/recent grads |
 | [**Season of KDE**](https://season.kde.org/) | KDE Community | **2026:** Applications due Jan 14 • Work: Jan 23 – Mar 20 | Non-paid (certificate + swag) | Students |
@@ -353,7 +354,7 @@ This guide prioritizes:
 
 ### ⭐ Star this repository if you found it helpful
 
-**Last Updated:** June 16, 2026
+**Last Updated:** July 1, 2026
 
 ✅ **Focused on active & recurring opportunities**  
 📅 **Next Update:** Monthly verification of timelines  
