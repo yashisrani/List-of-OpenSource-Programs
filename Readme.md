@@ -42,7 +42,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**MLH Fellowship**](https://fellowship.mlh.io/) | Major League Hacking | 12-week remote program • Multiple cohorts/tracks | Educational stipend provided | 18+ years, students/recent grads |
 | [**Season of KDE**](https://season.kde.org/) | KDE Community | **2026:** Applications due Jan 14 • Work: Jan 23 – Mar 20 | Non-paid (certificate + swag) | Students |
 | [**Free Software Foundation Internship**](https://www.fsf.org/volunteer/internships) | Free Software Foundation (FSF) | Rolling applications | Unpaid (educational) | Students |
-| [**Hyperledger Mentorship**](https://wiki.hyperledger.org/display/INTERN/) | Linux Foundation | Multiple terms yearly (via LFX ecosystem) | **$3,000 - $6,600** | Open to all |
+| [**LF Decentralized Trust Mentorship**](https://lf-decentralized-trust-mentorships.github.io/mentorship-program/main/) | Linux Foundation | Multiple terms yearly (via LFX ecosystem) | **$3,000 - $6,600** | Open to all |
 | [**sktime Mentoring Program**](https://www.sktime.net/en/latest/get_involved/mentoring.html) | sktime Community | Rolling / seasonal mentoring opportunities • Check official page for current rounds | Varies / May be paid depending on program | Open to contributors interested in time series ML and open source |
 | [**Djangonaut Space**](https://djangonaut.space/) | Django Community | Free 8-week mentoring program • Multiple sessions yearly | Free / mentorship-based | Open to Django contributors |
 | [**Kubernetes Release Shadow Program**](https://github.com/kubernetes/sig-release/blob/master/release-team/shadows.md) | Kubernetes | 13-week remote program | **No stipend (community-driven program)** | Open to Kubernetes SIG contributors |
