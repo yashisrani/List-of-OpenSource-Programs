@@ -1,0 +1,70 @@
+# Link collections shown on the Resources page, grouped into sections.
+# Each section renders as its own block; `items` are plain links with a
+# one-line description.
+
+- section: Finding beginner-friendly issues
+  slug: finding-issues
+  items:
+    - name: Good First Issues
+      url: https://goodfirstissues.com/
+      description: Curated list of beginner-friendly issues
+    - name: Up For Grabs
+      url: https://up-for-grabs.net/
+      description: Projects looking for contributors
+    - name: First Timers Only
+      url: https://www.firsttimersonly.com/
+      description: Issues specifically for first-time contributors
+    - name: CodeTriage
+      url: https://www.codetriage.com/
+      description: Get daily issues delivered to your inbox
+    - name: Awesome for Beginners
+      url: https://github.com/MunGell/awesome-for-beginners
+      description: List of beginner-friendly projects
+    - name: contrib.rocks
+      url: https://contrib.rocks/
+      description: Find issues by tech stack and difficulty
+
+- section: Learning Git and open source
+  slug: learning-git
+  items:
+    - name: Git Documentation
+      url: https://git-scm.com/doc
+      description: Official Git documentation
+    - name: GitHub Skills
+      url: https://skills.github.com/
+      description: Interactive Git and GitHub tutorials
+    - name: Pro Git Book
+      url: https://git-scm.com/book
+      description: Free comprehensive Git guide
+    - name: Learn Git Branching
+      url: https://learngitbranching.js.org/
+      description: Interactive Git visualization
+
+- section: Open source education
+  slug: education
+  items:
+    - name: opensource.guide
+      url: https://opensource.guide/
+      description: Complete guide to open source
+    - name: How to Contribute to Open Source
+      url: https://opensource.guide/how-to-contribute/
+      description: Step-by-step guide
+    - name: The Definitive Guide to Contributing to Open Source
+      url: https://www.freecodecamp.org/news/the-definitive-guide-to-contributing-to-open-source-900d5f9f2282/
+      description: freeCodeCamp guide
+
+- section: Communities for support
+  slug: communities
+  items:
+    - name: Dev.to
+      url: https://dev.to/
+      description: Developer community with open source discussions
+    - name: r/opensource
+      url: https://www.reddit.com/r/opensource/
+      description: Open source community on Reddit
+    - name: Stack Overflow
+      url: https://stackoverflow.com/questions/tagged/open-source
+      description: Technical questions
+    - name: Hashnode
+      url: https://hashnode.com/n/opensource
+      description: Open source articles and discussions

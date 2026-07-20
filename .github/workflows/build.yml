@@ -1,0 +1,40 @@
+name: Build
+
+# The generator validates the YAML (duplicate programs, stipends without a
+# currency, min above max, timeline events pointing at programs that do not
+# exist) and fails the build on any of them. Running it on every pull request
+# means a broken entry is caught before review rather than after merge.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - "data/**"
+      - "site-gen/**"
+      - "build.sh"
+      - ".github/workflows/build.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: site-gen
+
+      - name: Build site
+        run: ./build.sh
+
+      - name: Check output
+        run: |
+          test -f dist/index.html
+          test -f dist/timeline/index.html
+          test -f dist/start-here/index.html
+          test -f dist/resources/index.html
+          test -f dist/sitemap.xml
+          echo "Generated $(find dist -name '*.html' | wc -l) pages"

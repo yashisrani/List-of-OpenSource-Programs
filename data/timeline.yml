@@ -1,0 +1,159 @@
+# 2026 application windows and contribution seasons.
+#
+# One entry per dated event. `month` drives grouping on the site and must be a
+# 1-12 integer; `date` is the human label shown in the row ("Jan 7-20", "Jul").
+# `program` should match a `name` or `short_name` in programs.yml/competitions.yml
+# where possible, so the site can cross-link. `approx: true` renders the row as
+# an estimate rather than a confirmed date.
+#
+# Readme.md currently contains two overlapping timeline tables. This file is the
+# reconciled union of both: where they disagreed, the entry with the explicit
+# UTC time or the more specific wording was kept.
+
+year: 2026
+
+events:
+  - month: 1
+    date: Jan 7-20
+    event: LFX Spring 2026 Project Proposal Window
+    program: LFX Mentorship
+    approx: true
+  - month: 1
+    date: Jan 14
+    event: Season of KDE 2026 Application Deadline
+    program: Season of KDE
+  - month: 1
+    date: Jan 19
+    event: GSoC 2026 Organization Applications Open
+    program: GSoC
+    time: 18:00 UTC
+  - month: 1
+    date: Jan 23
+    event: Season of KDE 2026 Work Begins
+    program: Season of KDE
+
+  - month: 2
+    date: Feb 3
+    event: GSoC 2026 Organization Applications Deadline
+    program: GSoC
+    time: 18:00 UTC
+  - month: 2
+    date: Feb 18
+    event: ESoC 2026 Batch 1 Applications Open
+    program: ESoC
+  - month: 2
+    date: Feb 19
+    event: GSoC 2026 Accepted Organizations Published
+    program: GSoC
+    time: 18:00 UTC
+
+  - month: 3
+    date: Mar 16
+    event: GSoC 2026 Contributor Applications Open
+    program: GSoC
+    time: 18:00 UTC
+  - month: 3
+    date: Mar 18
+    event: ESoC 2026 Batch 1 Applications Close
+    program: ESoC
+  - month: 3
+    date: Mar 19
+    event: ESoC 2026 Batch 2 Applications Open
+    program: ESoC
+  - month: 3
+    date: Mar 20
+    event: Season of KDE 2026 Work Ends
+    program: Season of KDE
+  - month: 3
+    date: Mar 31
+    event: GSoC 2026 Contributor Applications Deadline
+    program: GSoC
+    time: 18:00 UTC
+
+  - month: 4
+    date: Apr 16
+    event: ESoC 2026 Batch 2 Applications Close
+    program: ESoC
+  - month: 4
+    date: Apr 21
+    event: GSoC 2026 Contributor Proposal Rankings Due
+    program: GSoC
+    time: 18:00 UTC
+  - month: 4
+    date: Apr 30
+    event: GSoC 2026 Accepted Projects Announced
+    program: GSoC
+    time: 18:00 UTC
+  - month: 4
+    date: Apr-May
+    event: Outreachy summer cohort application / contribution period
+    program: Outreachy
+    approx: true
+  - month: 4
+    date: Apr-May
+    event: C4GT application / selection cycle
+    program: C4GT DMP
+    approx: true
+
+  - month: 5
+    date: May 1-24
+    event: GSoC 2026 Community Bonding Period
+    program: GSoC
+  - month: 5
+    date: May 25
+    event: GSoC 2026 Coding Officially Begins
+    program: GSoC
+  - month: 5
+    date: May
+    event: Summer of Bitcoin application / selection period
+    program: Summer of Bitcoin
+    approx: true
+
+  - month: 6
+    date: Jun-Aug
+    event: Outreachy summer internship cohort
+    program: Outreachy
+    approx: true
+  - month: 6
+    date: Jun-Aug
+    event: C4GT Dedicated Mentoring Program
+    program: C4GT DMP
+    approx: true
+  - month: 6
+    date: Jun-Aug
+    event: FOSSEE Summer Fellowship
+    program: FOSSEE Summer Fellowship
+    approx: true
+
+  - month: 7
+    date: Jul
+    event: LFX Summer / mid-year mentorship cycles
+    program: LFX Mentorship
+    approx: true
+
+  - month: 8
+    date: Aug
+    event: Summer of Bitcoin program cycle
+    program: Summer of Bitcoin
+    approx: true
+
+  - month: 10
+    date: Oct 1-31
+    event: Hacktoberfest 2026
+    program: Hacktoberfest
+
+  - month: 11
+    date: Nov 2
+    event: GSoC 2026 Extended Timeline Final Deadline
+    program: GSoC
+    time: 18:00 UTC
+
+  - month: 12
+    date: Dec 1-24
+    event: 24 Pull Requests
+    program: 24 Pull Requests
+  - month: 12
+    date: Dec
+    event: Outreachy winter cohort / end-of-year application cycle
+    program: Outreachy
+    approx: true

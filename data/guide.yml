@@ -1,0 +1,101 @@
+# Content for the "Start here" page aimed at first-time contributors.
+
+best_for_beginners:
+  - program: Hacktoberfest
+    why: No long application process, wide variety of projects, beginner-friendly labels
+    getting_started: "Look for `hacktoberfest`, `good first issue`, `beginner-friendly` tags"
+  - program: Season of KDE
+    why: Strong community support, good documentation, multiple skill levels
+    getting_started: Join KDE channels early and read the contributor guides
+  - program: 24 Pull Requests
+    why: Encourages small contributions, very beginner-friendly
+    getting_started: Great for making your first PR in December
+  - program: LFX Mentorship
+    why: Structured mentoring, clear project scope, professional guidance
+    getting_started: Pick projects marked beginner-friendly
+
+# Repositories known for welcoming first-time contributors, by language.
+languages:
+  - name: Python
+    repos:
+      - name: Django
+        url: https://github.com/django/django
+      - name: Pandas
+        url: https://github.com/pandas-dev/pandas
+      - name: Matplotlib
+        url: https://github.com/matplotlib/matplotlib
+    labels: [easy, newcomer-friendly, good first issue]
+  - name: JavaScript
+    repos:
+      - name: freeCodeCamp
+        url: https://github.com/freeCodeCamp/freeCodeCamp
+      - name: React
+        url: https://github.com/facebook/react
+      - name: Node.js
+        url: https://github.com/nodejs/node
+    labels: [good first issue, beginner, help wanted]
+  - name: Java
+    repos:
+      - name: Spring Framework
+        url: https://github.com/spring-projects/spring-framework
+      - name: Apache Projects
+        url: https://github.com/apache
+    labels: [newbie, starter, good first issue]
+  - name: C++
+    repos:
+      - name: OpenCV
+        url: https://github.com/opencv/opencv
+      - name: Godot
+        url: https://github.com/godotengine/godot
+    labels: [junior job, easy, good first issue]
+  - name: Documentation
+    repos: []
+    note: Most projects need docs.
+    labels: [documentation, good first issue, help wanted]
+
+# Ways to contribute that do not require writing code.
+non_code:
+  - kind: Documentation
+    description: Fix typos, improve README files, write tutorials
+  - kind: Translation
+    description: Help translate software to different languages
+    links:
+      - name: Mozilla Firefox Translations
+        url: https://firefox-source-docs.mozilla.org/toolkit/components/translations/resources/02_contributing.html
+      - name: Ethereum Translation Program
+        url: https://ethereum.org/contributing/translation-program/
+  - kind: Design
+    description: Create logos, UI mockups, graphics
+  - kind: Testing
+    description: Report bugs, test new features
+  - kind: Community
+    description: Help answer questions, organize events
+
+learning_path:
+  - weeks: Week 1-2
+    goal: Learn Git and GitHub basics
+  - weeks: Week 3-4
+    goal: Make your first documentation PR
+  - weeks: Week 5-6
+    goal: Fix your first small bug
+  - weeks: Week 7-8
+    goal: Apply to beginner-friendly programs
+
+# GitHub labels worth searching for, with what they usually signal.
+labels:
+  - label: good first issue
+    meaning: GitHub's standard beginner label
+  - label: help wanted
+    meaning: Projects actively seeking contributors
+  - label: beginner
+    meaning: Difficulty indicator
+  - label: easy
+    meaning: Difficulty indicator
+  - label: newbie
+    meaning: Difficulty indicator
+  - label: documentation
+    meaning: Usually beginner-friendly
+  - label: hacktoberfest
+    meaning: Participating in Hacktoberfest
+  - label: first-timers-only
+    meaning: Exclusively for new contributors

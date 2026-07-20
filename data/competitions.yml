@@ -1,0 +1,18 @@
+# Challenge-based programs and coding competitions that reward open source
+# contributions. Same field conventions as programs.yml.
+
+- name: Hacktoberfest
+  url: https://hacktoberfest.com/
+  org: DigitalOcean
+  timeline: October 1-31 annually. Registration usually opens in September.
+  rewards: Digital badges, swag, recognition
+  eligibility: Open to all
+  tags: [global, beginner-friendly]
+
+- name: 24 Pull Requests
+  url: https://24pullrequests.com/
+  org: Community
+  timeline: December 1-24 annually
+  rewards: Recognition, badges
+  eligibility: Open to all
+  tags: [global, beginner-friendly]

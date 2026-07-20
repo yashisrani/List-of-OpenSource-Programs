@@ -1,0 +1,18 @@
+[package]
+name = "site-gen"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "site-gen"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1"
+resvg = "0.47.0"
+
+[profile.release]
+opt-level = 3
+lto = true
