@@ -28,11 +28,12 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 mod model;
+mod og;
 mod render;
 mod validate;
 
 use model::{Guide, Program, ResourceSection, Site, Timeline};
-use render::{Page, REPO_URL, SITE_URL};
+use render::{base, site_url, Page, REPO_URL};
 
 fn read_yaml<T: serde::de::DeserializeOwned>(path: &Path) -> Result<T, Box<dyn Error>> {
     let raw = fs::read_to_string(path)
@@ -68,7 +69,7 @@ fn write_page(dist: &Path, page: &Page) -> Result<(), Box<dyn Error>> {
 }
 
 /// Favicon: the same square mark the header uses, so the tab matches the page.
-const FAVICON: &str = r##"<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#2f6b45"/><rect x="9" y="9" width="14" height="14" rx="3" fill="#ecf3ee"/></svg>"##;
+const FAVICON: &str = r##"<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#4338ca"/><rect x="9" y="9" width="14" height="14" rx="3" fill="#eeecfd"/></svg>"##;
 
 fn main() -> Result<(), Box<dyn Error>> {
     let root = std::env::current_dir()?;
@@ -138,15 +139,26 @@ fn main() -> Result<(), Box<dyn Error>> {
     fs::write(dist.join("assets/app.js"), include_str!("../web/app.js"))?;
     fs::write(dist.join("favicon.svg"), FAVICON)?;
 
+    // Open Graph cards, one per page. Without these every share on Twitter,
+    // LinkedIn, WhatsApp or Slack renders as a bare link with no preview.
+    fs::create_dir_all(dist.join("og"))?;
+    let renderer = og::OgRenderer::new();
+    for p in &pages {
+        let (headline, sub) = &p.og_card;
+        renderer.card(&dist.join(format!("og/{}.png", p.og)), headline, sub)?;
+    }
+    eprintln!("  {} OG cards rendered", pages.len());
+
     // sitemap.xml
+    let (origin, b) = (site_url(), base());
     let mut sitemap = String::from(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n",
     );
     for p in &pages {
         let loc = if p.path == "/" {
-            format!("{SITE_URL}/")
+            format!("{origin}{b}/")
         } else {
-            format!("{SITE_URL}{}", p.path)
+            format!("{origin}{b}{}", p.path)
         };
         let priority = if p.path == "/" { "1.0" } else { "0.8" };
         sitemap.push_str(&format!(
@@ -158,7 +170,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     fs::write(
         dist.join("robots.txt"),
-        format!("User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n"),
+        format!("User-agent: *\nAllow: /\n\nSitemap: {origin}{b}/sitemap.xml\n"),
     )?;
 
     eprintln!("✓ {} pages written to {}", pages.len(), dist.display());

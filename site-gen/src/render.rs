@@ -10,8 +10,33 @@ use std::fmt::Write as _;
 use crate::model::{Program, Site};
 
 pub const SITE_NAME: &str = "Open Source Programs";
-pub const SITE_URL: &str = "https://list-of-opensource-programs.vercel.app";
 pub const REPO_URL: &str = "https://github.com/yashisrani/List-of-OpenSource-Programs";
+
+/// Origin the site is served from, used for canonical URLs, the sitemap and
+/// og:image. Overridable so the same build works on GitHub Pages, a custom
+/// domain, or a preview deploy.
+///
+///   SITE_URL=https://yashisrani.github.io
+///   SITE_BASE=/List-of-OpenSource-Programs
+///
+/// Defaults target a project GitHub Pages site, which is the zero-config
+/// option for this repo.
+pub fn site_url() -> String {
+    std::env::var("SITE_URL")
+        .unwrap_or_else(|_| "https://yashisrani.github.io".into())
+        .trim_end_matches('/')
+        .to_string()
+}
+
+/// Path prefix every absolute link is written under. GitHub Pages serves a
+/// project site from /<repo>/, so assets need that prefix; a custom domain
+/// serves from the root and wants "".
+pub fn base() -> String {
+    std::env::var("SITE_BASE")
+        .unwrap_or_else(|_| "/List-of-OpenSource-Programs".into())
+        .trim_end_matches('/')
+        .to_string()
+}
 
 /// HTML-escape text content.
 pub fn esc(s: &str) -> String {
@@ -97,13 +122,18 @@ pub struct Page<'a> {
     pub body: String,
     /// Extra JSON-LD injected into <head>, already serialized.
     pub json_ld: Option<String>,
+    /// Basename of this page's Open Graph card under /og/, without extension.
+    pub og: &'a str,
+    /// Headline and sub-line for the generated OG card.
+    pub og_card: (String, String),
 }
 
 pub fn shell(p: &Page) -> String {
+    let (site, b) = (site_url(), base());
     let canonical = if p.path == "/" {
-        SITE_URL.to_string()
+        format!("{site}{b}/")
     } else {
-        format!("{SITE_URL}{}", p.path)
+        format!("{site}{b}{}", p.path)
     };
     let full_title = if p.path == "/" {
         format!("{SITE_NAME} 2026 - Paid Open Source Internships and Fellowships")
@@ -126,10 +156,29 @@ pub fn shell(p: &Page) -> String {
     let _ = writeln!(h, "<meta property=\"og:title\" content=\"{}\">", esc(&full_title));
     let _ = writeln!(h, "<meta property=\"og:description\" content=\"{}\">", esc(p.description));
     let _ = writeln!(h, "<meta property=\"og:url\" content=\"{}\">", esc(&canonical));
-    let _ = writeln!(h, "<meta name=\"twitter:card\" content=\"summary_large_image\">");
 
-    h.push_str("<link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\">\n");
-    h.push_str("<link rel=\"stylesheet\" href=\"/assets/app.css\">\n");
+    // Absolute URL: crawlers do not resolve relative og:image paths.
+    let og_url = format!("{site}{b}/og/{}.png", p.og);
+    let _ = writeln!(h, "<meta property=\"og:image\" content=\"{}\">", esc(&og_url));
+    let _ = writeln!(h, "<meta property=\"og:image:width\" content=\"1200\">");
+    let _ = writeln!(h, "<meta property=\"og:image:height\" content=\"630\">");
+    let _ = writeln!(h, "<meta property=\"og:image:type\" content=\"image/png\">");
+    let _ = writeln!(
+        h,
+        "<meta property=\"og:image:alt\" content=\"{}\">",
+        esc(&p.og_card.0)
+    );
+    let _ = writeln!(h, "<meta name=\"twitter:card\" content=\"summary_large_image\">");
+    let _ = writeln!(h, "<meta name=\"twitter:title\" content=\"{}\">", esc(&full_title));
+    let _ = writeln!(
+        h,
+        "<meta name=\"twitter:description\" content=\"{}\">",
+        esc(p.description)
+    );
+    let _ = writeln!(h, "<meta name=\"twitter:image\" content=\"{}\">", esc(&og_url));
+
+    let _ = writeln!(h, "<link rel=\"icon\" href=\"{b}/favicon.svg\" type=\"image/svg+xml\">");
+    let _ = writeln!(h, "<link rel=\"stylesheet\" href=\"{b}/assets/app.css\">");
 
     // Set the theme before first paint so a dark-mode user never sees a white
     // flash. Kept inline and tiny for exactly that reason.
@@ -146,7 +195,7 @@ pub fn shell(p: &Page) -> String {
 
     // Header.
     h.push_str("<header class=\"site-head\"><div class=\"wrap\">\n");
-    let _ = write!(h, "<a class=\"brand\" href=\"/\">{SITE_NAME}</a>\n");
+    let _ = write!(h, "<a class=\"brand\" href=\"{b}/\">{SITE_NAME}</a>\n");
     h.push_str("<nav class=\"nav\" aria-label=\"Main\">\n");
     for (href, label, key) in [
         ("/", "Programs", "programs"),
@@ -155,7 +204,7 @@ pub fn shell(p: &Page) -> String {
         ("/resources/", "Resources", "resources"),
     ] {
         let cur = if p.nav == key { " aria-current=\"page\"" } else { "" };
-        let _ = writeln!(h, "<a href=\"{href}\"{cur}>{label}</a>");
+        let _ = writeln!(h, "<a href=\"{b}{href}\"{cur}>{label}</a>");
     }
     h.push_str("</nav>\n");
     let _ = write!(
@@ -190,7 +239,7 @@ pub fn shell(p: &Page) -> String {
     );
     h.push_str("</div>\n</div></footer>\n");
 
-    h.push_str("<script src=\"/assets/app.js\" defer></script>\n");
+    let _ = writeln!(h, "<script src=\"{b}/assets/app.js\" defer></script>");
     h.push_str("</body>\n</html>\n");
     h
 }
@@ -358,6 +407,8 @@ pub fn home(site: &Site) -> Page<'_> {
         nav: "programs",
         body: b,
         json_ld: Some(home_json_ld(site)),
+        og: "home",
+        og_card: ("Open source programs and internships for 2026".into(), "Stipends, deadlines and eligibility in one place.".into()),
     }
 }
 
@@ -460,6 +511,8 @@ pub fn timeline(site: &Site) -> Page<'_> {
         nav: "timeline",
         body: b,
         json_ld: None,
+        og: "timeline",
+        og_card: (format!("{year} timeline"), "Every application window and deadline, month by month.".into()),
     }
 }
 
@@ -604,6 +657,8 @@ pub fn start_here(site: &Site) -> Page<'_> {
         nav: "start",
         body: b,
         json_ld: None,
+        og: "start-here",
+        og_card: ("New to open source? Start here".into(), "The shortest path from zero to a merged pull request.".into()),
     }
 }
 
@@ -678,5 +733,7 @@ pub fn resources(site: &Site) -> Page<'_> {
         nav: "resources",
         body: b,
         json_ld: None,
+        og: "resources",
+        og_card: ("Resources for open source contributors".into(), "Issue trackers, Git guides and communities worth knowing.".into()),
     }
 }
