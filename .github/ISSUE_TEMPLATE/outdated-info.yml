@@ -1,0 +1,57 @@
+name: Report outdated or wrong information
+description: A date, stipend, link or eligibility detail that no longer matches the official source.
+title: "Outdated: "
+labels: ["outdated"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Program details change every cycle. Reporting a stale entry is one of
+        the most useful contributions you can make here.
+
+  - type: input
+    id: program
+    attributes:
+      label: Which program?
+      placeholder: Season of KDE
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong?
+      multiple: true
+      options:
+        - Timeline / dates
+        - Stipend amount
+        - Eligibility
+        - Link is broken or redirects
+        - Program is no longer running
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What the list says now
+      placeholder: "Applications due Jan 14"
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: What it should say
+      placeholder: "Applications due Jan 21"
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Official source confirming the correction
+      placeholder: https://season.kde.org/
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Site bug or design problem
+    url: https://github.com/yashisrani/List-of-OpenSource-Programs/issues/new
+    about: Something broken or hard to read on the generated site rather than in the data.

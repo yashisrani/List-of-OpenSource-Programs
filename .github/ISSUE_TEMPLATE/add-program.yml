@@ -1,0 +1,86 @@
+name: Add a program
+description: Suggest an open source program, fellowship, internship or competition to add to the list.
+title: "Add: "
+labels: ["new program"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep this list useful.
+
+        If you are comfortable editing YAML, opening a pull request against
+        [`data/programs.yml`](../blob/main/data/programs.yml) is faster than
+        filing an issue. Either way is welcome.
+
+  - type: input
+    id: name
+    attributes:
+      label: Program name
+      placeholder: Google Summer of Code
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      description: Link to the program's own site, not a blog post or aggregator.
+      placeholder: https://summerofcode.withgoogle.com/
+    validations:
+      required: true
+
+  - type: input
+    id: org
+    attributes:
+      label: Organization running it
+      placeholder: Google
+    validations:
+      required: true
+
+  - type: input
+    id: timeline
+    attributes:
+      label: Timeline
+      description: Application windows and program dates, as specific as the official site states.
+      placeholder: "Org Apps: Jan 19 - Feb 3, Contributors: Mar 16 - Mar 31"
+    validations:
+      required: true
+
+  - type: input
+    id: stipend
+    attributes:
+      label: Stipend or reward
+      description: An amount with its currency, or "unpaid", or what the program actually offers.
+      placeholder: $1,500 - $6,600 USD
+    validations:
+      required: true
+
+  - type: input
+    id: eligibility
+    attributes:
+      label: Who can apply
+      placeholder: 18+ years, open to all
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Where did you confirm this?
+      description: |
+        Link the official page that states the dates and stipend. This list is
+        only useful if entries can be checked, so entries without a source are
+        likely to sit unmerged.
+      placeholder: https://summerofcode.withgoogle.com/programs/2026
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: This program is active or recurring, not a one-off that already ended.
+          required: true
+        - label: I searched open issues and the existing list, and this program is not already there.
+          required: true

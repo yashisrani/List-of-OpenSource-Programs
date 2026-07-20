@@ -1,0 +1,7 @@
+# Rust generator build artifacts
+/site-gen/target/
+
+# Generated site output (built by Vercel, or locally via ./build.sh)
+/dist/
+
+.DS_Store

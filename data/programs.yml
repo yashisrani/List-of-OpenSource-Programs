@@ -1,0 +1,229 @@
+# Open source programs, fellowships and mentorships.
+#
+# Adding a program? Copy an existing entry and fill in every field. Only `name`,
+# `url` and `org` are required; the rest may be omitted when genuinely unknown,
+# but prefer an honest "varies" string over guessing a number.
+#
+# stipend:
+#   min/max  integer amounts in `currency` (omit both if unpaid/unclear)
+#   note     free text shown when min/max cannot express it
+#   unpaid   true for programs offering no money at all
+# tags: paid | unpaid | global | students | beginner-friendly | underrepresented
+#
+# Verify dates against the official site before editing. See the Disclaimer
+# section of Readme.md.
+
+- name: Google Summer of Code
+  short_name: GSoC
+  url: https://summerofcode.withgoogle.com/
+  org: Google
+  timeline: "Org Apps: Jan 19 - Feb 3 - Contributors: Mar 16 - Mar 31 - Coding: May 25 - Nov 2"
+  timeline_year: 2026
+  stipend:
+    min: 1500
+    max: 6600
+    currency: USD
+    note: 12-22 week projects
+  eligibility: 18+ years, open to all
+  tags: [paid, global, beginner-friendly]
+
+- name: Outreachy
+  url: https://www.outreachy.org/
+  org: Software Freedom Conservancy
+  timeline: Two cohorts annually (Jun-Aug / Dec-Mar). Check official site for 2026 round dates.
+  stipend:
+    min: 7000
+    max: 7000
+    currency: USD
+  eligibility: Underrepresented groups in tech
+  tags: [paid, global, underrepresented]
+
+- name: LFX Mentorship
+  url: https://mentorship.lfx.linuxfoundation.org/
+  org: Linux Foundation
+  timeline: Multiple terms each year. Applications typically open before each term.
+  stipend:
+    min: 1000
+    max: 6600
+    currency: USD
+  eligibility: Open to all
+  tags: [paid, global, beginner-friendly]
+
+- name: Igalia Coding Experience
+  url: https://www.igalia.com/coding-experience/
+  org: Igalia
+  timeline: Rolling / periodic openings
+  stipend:
+    min: 7000
+    max: 7000
+    currency: USD
+  eligibility: Open to all
+  tags: [paid, global]
+
+- name: Summer of Bitcoin
+  url: https://www.summerofbitcoin.org/
+  org: Summer of Bitcoin
+  timeline: Annual spring/summer program. Check official site for 2026 dates.
+  stipend:
+    min: 3000
+    max: 3000
+    currency: USD
+    note: Paid in Bitcoin
+  eligibility: University students
+  tags: [paid, global, students]
+
+- name: European Summer of Code
+  short_name: ESoC
+  url: https://www.esoc.dev/
+  org: European Summer of Code
+  timeline: "Batch 1: Feb 18 - Mar 18 - Batch 2: Mar 19 - Apr 16 - Starts: Apr 15 / May 15"
+  timeline_year: 2026
+  stipend:
+    note: Stipends available / paid internship possible
+  eligibility: Open worldwide, especially contributors new to open source
+  tags: [paid, global, beginner-friendly]
+
+- name: Open Source Research Experience
+  short_name: OSRE
+  url: https://ucsc-ospo.github.io/osre/
+  org: Open Source Program Office (OSPO), UC Santa Cruz
+  timeline: Summer research program. Also participates through GSoC and other outreach/sponsorship cycles.
+  stipend:
+    note: Varies / sponsored opportunities available
+  eligibility: Undergraduate and graduate students interested in open source research
+  tags: [paid, global, students]
+
+- name: Open Mainframe Project Mentorship Program
+  url: https://openmainframeproject.org/community/mentorship-program/
+  org: Open Mainframe Project (Linux Foundation)
+  timeline: Spring, Summer and Fall mentorship cycles (via LFX Mentorship)
+  stipend:
+    min: 1000
+    max: 6600
+    currency: USD
+  eligibility: University students (18+) interested in Linux, mainframe, COBOL, Zowe, and open source development
+  tags: [paid, global, students]
+
+- name: Code for GovTech - Dedicated Mentoring Program
+  short_name: C4GT DMP
+  url: https://app.codeforgovtech.in/
+  org: Code for GovTech
+  timeline: Annual 3-month mentoring program (typically summer cycle; dates vary by year)
+  stipend:
+    min: 100000
+    max: 100000
+    currency: INR
+  eligibility: Students, working professionals, and tech enthusiasts
+  tags: [paid]
+
+- name: MLH Fellowship
+  url: https://fellowship.mlh.io/
+  org: Major League Hacking
+  timeline: 12-week remote program. Multiple cohorts/tracks.
+  stipend:
+    note: Educational stipend provided
+  eligibility: 18+ years, students/recent grads
+  # Recent batches have shown limited or no matches for applicants in India and
+  # some other regions. Verify batch eligibility on the official page.
+  caveat: Recent batches have shown limited or no available matches for applicants residing in India and some other regions. Verify current batch eligibility on the official application page before applying.
+  tags: [paid, global, students]
+
+- name: Season of KDE
+  url: https://season.kde.org/
+  org: KDE Community
+  timeline: "Applications due Jan 14 - Work: Jan 23 - Mar 20"
+  timeline_year: 2026
+  stipend:
+    unpaid: true
+    note: Certificate and swag
+  eligibility: Students
+  tags: [unpaid, global, students, beginner-friendly]
+
+- name: Free Software Foundation Internship
+  url: https://www.fsf.org/volunteer/internships
+  org: Free Software Foundation (FSF)
+  timeline: Rolling applications
+  stipend:
+    unpaid: true
+    note: Educational
+  eligibility: Students
+  tags: [unpaid, students]
+
+- name: LF Decentralized Trust Mentorship
+  url: https://lf-decentralized-trust-mentorships.github.io/mentorship-program/main/
+  org: Linux Foundation
+  timeline: Multiple terms yearly (via LFX ecosystem)
+  stipend:
+    min: 3000
+    max: 6600
+    currency: USD
+  eligibility: Open to all
+  tags: [paid, global]
+
+- name: sktime Mentoring Program
+  url: https://www.sktime.net/en/latest/get_involved/mentoring.html
+  org: sktime Community
+  timeline: Rolling / seasonal mentoring opportunities. Check official page for current rounds.
+  stipend:
+    note: Varies / may be paid depending on program
+  eligibility: Open to contributors interested in time series ML and open source
+  tags: [global]
+
+- name: Djangonaut Space
+  url: https://djangonaut.space/
+  org: Django Community
+  timeline: Free 8-week mentoring program. Multiple sessions yearly.
+  stipend:
+    unpaid: true
+    note: Mentorship-based
+  eligibility: Open to Django contributors
+  tags: [unpaid, global, beginner-friendly]
+
+- name: Kubernetes Release Shadow Program
+  url: https://github.com/kubernetes/sig-release/blob/master/release-team/shadows.md
+  org: Kubernetes
+  timeline: 13-week remote program
+  stipend:
+    unpaid: true
+    note: Community-driven program
+  eligibility: Open to Kubernetes SIG contributors
+  tags: [unpaid, global]
+
+- name: Linux Kernel Mentorship Program
+  url: https://wiki.linuxfoundation.org/lkmp
+  org: Linux Foundation
+  timeline: Aligns with LFX / kernel community cycles
+  stipend:
+    unpaid: true
+    note: Community-driven program
+  eligibility: Open to all
+  tags: [unpaid, global]
+
+- name: Nexus Spring of Code
+  short_name: NSoC
+  url: https://www.nsoc.in/
+  org: Nexus
+  timeline: 45-day open source program. Dates vary by season/year.
+  stipend:
+    unpaid: true
+    note: Community-driven program
+  eligibility: Open to contributors interested in real-world open source work
+  tags: [unpaid]
+
+- name: FOSSASIA Internship
+  url: https://fossasia.org/internship
+  org: FOSSASIA
+  timeline: Rolling / project-based
+  stipend:
+    note: Varies
+  eligibility: Open to all
+  tags: [global]
+
+- name: FOSSEE Summer Fellowship
+  url: https://fossee.in/
+  org: IIT Bombay
+  timeline: Annual summer fellowship
+  stipend:
+    note: Paid / stipend-based
+  eligibility: Students (primarily India)
+  tags: [paid, students]
