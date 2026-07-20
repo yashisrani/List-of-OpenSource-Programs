@@ -13,27 +13,23 @@ pub const SITE_NAME: &str = "Open Source Programs";
 pub const REPO_URL: &str = "https://github.com/yashisrani/List-of-OpenSource-Programs";
 
 /// Origin the site is served from, used for canonical URLs, the sitemap and
-/// og:image. Overridable so the same build works on GitHub Pages, a custom
-/// domain, or a preview deploy.
-///
-///   SITE_URL=https://yashisrani.github.io
-///   SITE_BASE=/List-of-OpenSource-Programs
-///
-/// Defaults target a project GitHub Pages site, which is the zero-config
-/// option for this repo.
+/// og:image. Overridden by the deploy workflow; the default only has to be a
+/// sane placeholder for local builds.
 pub fn site_url() -> String {
     std::env::var("SITE_URL")
-        .unwrap_or_else(|_| "https://yashisrani.github.io".into())
+        .unwrap_or_else(|_| "https://yashisrani.github.io/List-of-OpenSource-Programs".into())
         .trim_end_matches('/')
         .to_string()
 }
 
-/// Path prefix every absolute link is written under. GitHub Pages serves a
-/// project site from /<repo>/, so assets need that prefix; a custom domain
-/// serves from the root and wants "".
+/// Path prefix every absolute link is written under.
+///
+/// Defaults to empty so `./build.sh --serve` works against a plain server at
+/// the root. GitHub Pages serves a project site from /<repo>/, so the deploy
+/// workflow sets SITE_BASE to that prefix; a custom domain leaves it unset.
 pub fn base() -> String {
     std::env::var("SITE_BASE")
-        .unwrap_or_else(|_| "/List-of-OpenSource-Programs".into())
+        .unwrap_or_default()
         .trim_end_matches('/')
         .to_string()
 }
