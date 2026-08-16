@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌟 Open Source Programs & Internships Guide 2026
+# 🌟 Open Source Programs & Internships Guide
 
 A comprehensive, curated list of **active and relevant** open source programs, internships, competitions, and university initiatives for **2026**.
 
