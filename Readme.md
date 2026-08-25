@@ -50,8 +50,12 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**Open Mainframe Project Mentorship**](https://openmainframeproject.org/community/mentorship-program/) | Linux Foundation | Aligns with LFX terms | Stipend available | Open to all |
 | [**Linux Kernel Mentorship Program**](https://wiki.linuxfoundation.org/lkmp) | Linux Foundation | Aligns with LFX / kernel community cycles | **No stipend (community-driven program)**  | Open to all |
 | [**Nexus Spring of Code (NSoC)**](https://www.nsoc.in/) | Nexus | 45-day open source program • Dates vary by season/year | **No stipend (community-driven program)** | Open to contributors interested in real-world open source work |
-| [**FOSSASIA Internship**](https://fossasia.org/internship) | FOSSASIA | Rolling / project-based | Varies | Open to all |
-| [**FOSSEE Summer Fellowship**](https://fossee.in/) | IIT Bombay | Annual summer fellowship | Paid / stipend-based | Students (primarily India) |
+| [**FOSSASIA Internship**](https://fossasia.org/internship) | FOSSASIA | Rolling / Project-Based | Varies by project | Open to all |
+| [**FOSSEE Summer Fellowship**](https://fossee.in/) | IIT Bombay | Annual / Summer | Paid / Stipend-Based | Primarily students in India |
+| [**GirlScript Summer of Code (GSSoC)**](https://gssoc.girlscript.org/) | GirlScript Foundation | May 15 – Aug 15, 2026 | Certificates + Leaderboard Prizes | Open to all; Beginners encouraged |
+| [**Social Summer of Code (SSoC)**](https://socialsummerofcode.com/) | Social Summer of Code | Jun 1 – Aug 1, 2026 | Certificates + Prizes | Open to all |
+
+
 
 > **Removed from active list:** Programs that appeared outdated, legacy-only, inactive-looking, or unclear for 2026 without confirmation (e.g., EVoC, older community fellowships with uncertain continuity, etc.).
 
