@@ -49,6 +49,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 | [**Swift Mentorship Program**](https://www.swift.org/mentorship/) | Swift Community (Apple Open Source) | Annual (10-week cohort) | **Unpaid** | Open to everyone interested in contributing to Swift open source |
 | [⁠**KubeStellar IFoS (Interns for Open Source)**](https://kubestellar.io/en/programs/ifos) | KubeStellar | Internship | Unpaid | Open to individuals passionate about open source; graduates receive a certificate, letter of recommendation, and priority consideration for future paid mentorship programs like GSoC or LFX |
 | [**Open Mainframe Project Mentorship**](https://openmainframeproject.org/community/mentorship-program/) | Linux Foundation | Aligns with LFX terms | Stipend available | Open to all |
+| [**OpenSSF Mentorship Program**](https://openssf.org/community/mentorship-program/) | Open Source Security Foundation (Linux Foundation) | Spring, Summer and Fall mentorship cycles (via LFX Mentorship) | **$1,000 – $6,600 (dollars)** | Open to all interested in open source security |
 | [**Linux Kernel Mentorship Program**](https://wiki.linuxfoundation.org/lkmp) | Linux Foundation | Aligns with LFX / kernel community cycles | **No stipend (community-driven program)**  | Open to all |
 | [**Nexus Spring of Code (NSoC)**](https://www.nsoc.in/) | Nexus | 45-day open source program • Dates vary by season/year | **No stipend (community-driven program)** | Open to contributors interested in real-world open source work |
 | [**FOSSASIA Internship**](https://fossasia.org/internship) | FOSSASIA | Rolling / project-based | Varies | Open to all |
@@ -198,6 +199,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 - FOSSEE Summer Fellowship
 - Hyperledger Mentorship
 - Open Mainframe Project Mentorship
+- OpenSSF Mentorship Program
 
 ### 🎖️ Certificate / Recognition Programs
 
