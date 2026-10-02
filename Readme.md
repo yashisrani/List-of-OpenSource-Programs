@@ -57,7 +57,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 
 > **Removed from active list:** Programs that appeared outdated, legacy-only, inactive-looking, or unclear for 2026 without confirmation (e.g., EVoC, older community fellowships with uncertain continuity, etc.).
 
-## 🏆 Open Source Competitions
+## 🏆 Open Source Program (for Absolute beginners)
 
 > Challenge-based programs and coding competitions that reward contributions to open source projects.
 
