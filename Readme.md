@@ -14,7 +14,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 ## 📑 Table of Contents
 
 - [🎯 Open Source Programs & Fellowships](#-open-source-programs--fellowships)
-- [🏆 Open Source Competitions](#-open-source-competitions)
+- [🏆 Open Source Programs (for Absolute beginners)](#-open-source-competitions)
 - [📅 2026 Timeline at a Glance](#-2026-timeline-at-a-glance)
 - [📊 Programs by Category](#-programs-by-category)
 - [🚀 First-Time Contributors Guide](#-first-time-contributors-guide)
@@ -57,7 +57,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 
 > **Removed from active list:** Programs that appeared outdated, legacy-only, inactive-looking, or unclear for 2026 without confirmation (e.g., EVoC, older community fellowships with uncertain continuity, etc.).
 
-## 🏆 Open Source Program (for Absolute beginners)
+## 🏆 Open Source Programs (for Absolute beginners)
 
 > Challenge-based programs and coding competitions that reward contributions to open source projects.
 
