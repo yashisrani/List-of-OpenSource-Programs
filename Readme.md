@@ -14,7 +14,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 ## 📑 Table of Contents
 
 - [🎯 Open Source Programs & Fellowships](#-open-source-programs--fellowships)
-- [🏆 Open Source Programs (for Absolute beginners)](#-open-source-competitions)
+- [🏆 Open Source Programs (for Absolute Beginners)](#-open-source-programs-for-absolute-beginners)
 - [📅 2026 Timeline at a Glance](#-2026-timeline-at-a-glance)
 - [📊 Programs by Category](#-programs-by-category)
 - [🚀 First-Time Contributors Guide](#-first-time-contributors-guide)
