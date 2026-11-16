@@ -26,6 +26,9 @@
     - name: HelpMeHack
       url: https://www.helpmehack.tech/
       description: Find active open-source projects and beginner-friendly issues with contribution context
+    - name: Open Source Radar
+      url: https://tanbirramim.github.io/open-source-radar/
+      description: Unassigned good first issues with no linked PR, filterable by language, refreshed twice a day
 
 - section: Learning Git and open source
   slug: learning-git

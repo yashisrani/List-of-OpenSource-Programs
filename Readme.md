@@ -280,6 +280,7 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 - **[CodeTriage](https://www.codetriage.com/)** - Get daily issues delivered to your inbox
 - **[Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners)** - List of beginner-friendly projects
 - **[contrib.rocks](https://contrib.rocks/)** - Find issues by tech stack and difficulty
+- **[Open Source Radar](https://tanbirramim.github.io/open-source-radar/)** - Unassigned good first issues with no linked PR, filterable by language
 
 ### 📖 Learning Git & Open Source
 
