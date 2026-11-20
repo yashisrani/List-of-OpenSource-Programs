@@ -21,6 +21,8 @@ A comprehensive, curated list of **active and relevant** open source programs, i
 - [🔗 Useful Resources](#-useful-resources)
 - [📝 How to Contribute](#-how-to-contribute)
 - [⚠️ Disclaimer](#️-disclaimer)
+- [Linux Kernel Mentorship](https://mentorship.lfx.linuxfoundation.org/project/1f3216bc-e266-415c-84c7-a9a728dff3ce) - A mentorship program run by the Linux Foundation. Open to anyone 18+. (Unpaid / Timeline varies).
+
 
 ---
 
