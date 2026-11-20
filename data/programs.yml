@@ -104,6 +104,18 @@
   eligibility: University students (18+) interested in Linux, mainframe, COBOL, Zowe, and open source development
   tags: [paid, global, students]
 
+- name: OpenSSF Mentorship Program
+  short_name: OpenSSF Mentorship
+  url: https://openssf.org/community/mentorship-program/
+  org: Open Source Security Foundation (Linux Foundation)
+  timeline: Spring, Summer and Fall mentorship cycles (via LFX Mentorship)
+  stipend:
+    min: 1000
+    max: 6600
+    currency: USD
+  eligibility: Open to all interested in open source security
+  tags: [paid, global, beginner-friendly]
+
 - name: Code for GovTech - Dedicated Mentoring Program
   short_name: C4GT DMP
   url: https://app.codeforgovtech.in/
